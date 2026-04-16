@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+background-color: #ffffff;
+color: #ffffff;
+}
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 40px;
+height: 70px;
+background-color: #ee7f4c;
+position: sticky;
+top: 0;
+z-index: 100;
+}
+
+.navbar-brand {
+display: flex;  
+align-items: center;
+gap: 12px;
+}
+
+.logo {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 42px;
+height: 42px;
+background-color: #ee0e0e;
+border-radius: 8px;
+font-size: 16px;
+font-weight: 700;
+color: #fff;
+}
+
+.navbar-brand span {
+font-size: 18px;
+font-weight: 600;
+color: #ffffff;
+}
+
+.navbar-links {
+display: flex;
+gap: 30px;
+}
+
+.navbar-links a {
+text-decoration: none;
+color: #f52b78;
+font-size: 25px;
+transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+color: #e07b39;
+}
+
+
+
+
+.hero {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 80px;
+min-height: 400px;
+background:#0ad30a
+}
+
+.hero-text {
+max-width: 55%;
+}
+
+.hero-text h1 {
+font-size: 42px;
+font-weight: 700;
+line-height: 1.2;
+margin-bottom: 12px;
+}
+
+.hero-text h1 span {
+color: #e07b39;
+}
+
+.hero-text .subtitle {
+font-size: 18px;
+color: #000000;
+margin-bottom: 16px;
+}
+
+.hero-text .description {
+font-size: 14px;
+color: #000000;
+font-style: italic;
+line-height: 1.7;
+}
+
+.hero-image {
+width: 260px;
+height: 260px;
+border-radius: 50%;
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+
+.hero-image svg {
+width: 80px;
+height: 80px;
+fill: #000000;
+}
